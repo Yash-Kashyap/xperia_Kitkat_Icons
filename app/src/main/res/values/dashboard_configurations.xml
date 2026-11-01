@@ -75,18 +75,27 @@
 
     <!-- ABOUT -->
     <string name="about_image">home</string>
-    <string name="about_profile_image">ic_splash_screen</string>
-    <string name="about_title">Xperia KitKat</string>
+    <string name="about_profile_image">app_icon_avatar</string>
+    <string name="about_title">Xperia KitKat Icons</string>
     <string name="about_desc">
         <![CDATA[
-            Xperia KitKat Icon Pack brings high-definition retro aesthetics from classic Sony Xperia devices and Android 4.4 KitKat.
+            <p><b>Xperia KitKat Icons</b> brings high-definition retro aesthetics from classic Sony Xperia devices and Android 4.4 KitKat to modern Android launchers.</p>
+            <br>
+            <p>Version <b>1.1.0</b></p>
+            <p>Created &amp; Maintained by <b>Yash Kashyap</b></p>
         ]]>
     </string>
 
-    <string-array name="about_social_links"></string-array>
+    <string-array name="about_social_links">
+        <item>https://github.com/Yash-Kashyap/xperia_Kitkat_Icons</item>
+        <item>mailto:yashkashyap1110@gmail.com</item>
+    </string-array>
     <bool name="show_contributors_dialog">false</bool>
     <string name="privacy_policy_link"></string>
     <string name="terms_and_conditions_link"></string>
+    <string name="about_dashboard">Xperia KitKat Icons</string>
+    <string name="about_dashboard_dev">Classic Sony Xperia KitKat Icon Pack by Yash Kashyap</string>
+    <string name="about_dashboard_github_url">https://github.com/Yash-Kashyap/xperia_Kitkat_Icons</string>
 
     <!-- DONATE -->
     <bool name="enable_donation">false</bool>
