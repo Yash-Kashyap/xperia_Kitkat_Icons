@@ -34,12 +34,6 @@
 	<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts_kitkat" />
 	<item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.app.contacts.activity.Main}" drawable="contacts_xperia" />
 	<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.LaunchActivity}" drawable="contacts_xperia" />
-	<item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="camera_kitkat" />
-	<item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera_xperia" />
-	<item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="camera_xperia" />
-	<item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera_kitkat" />
-	<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera_kitkat" />
-	<item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.CameraActivity}" drawable="camera_xperia" />
 	<item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="messages" />
 	<item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="messages" />
 	<item component="ComponentInfo{com.samsung.android.messaging/com.samsung.android.messaging.ui.view.main.MainActivity}" drawable="messages" />
@@ -96,4 +90,31 @@
 	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
 	<calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.calendar.activity.MainActivity}" prefix="calendar_" />
+	<!-- Sony Cyber-shot Camera -->
+	<item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="camera_cybershot" />
+	<item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="camera_cybershot" />
+	<item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera_cybershot" />
+	<item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.CameraActivity}" drawable="camera_cybershot" />
+	<item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera_cybershot" />
+	<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera_cybershot" />
+	<!-- SIM Toolkit -->
+	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity}" drawable="sim_toolkit" />
+	<item component="ComponentInfo{com.android.stk/com.android.stk.StkMain}" drawable="sim_toolkit" />
+	<item component="ComponentInfo{com.android.stk2/com.android.stk2.StkLauncherActivityII}" drawable="sim_toolkit" />
+	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity1}" drawable="sim_toolkit" />
+	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity2}" drawable="sim_toolkit" />
+	<item component="ComponentInfo{com.google.android.ims/com.google.android.ims.CarrierServicesActivity}" drawable="sim_toolkit" />
+	<!-- Xperia Update Center / Software Update -->
+	<item component="ComponentInfo{com.sonyericsson.updatecenter/com.sonyericsson.updatecenter.UpdateCenterActivity}" drawable="xperia_update_center" />
+	<item component="ComponentInfo{com.google.android.gms/com.google.android.gms.update.SystemUpdateActivity}" drawable="xperia_update_center" />
+	<item component="ComponentInfo{com.android.settings/com.android.settings.deviceinfo.SystemUpdateActivity}" drawable="xperia_update_center" />
+	<item component="ComponentInfo{com.wssyncmldm/com.wssyncmldm.ui.MainActivity}" drawable="xperia_update_center" />
+	<item component="ComponentInfo{com.oneplus.opbackup/com.oneplus.opbackup.OTAActivity}" drawable="xperia_update_center" />
+	<!-- Security Vault / Backup & Restore / Safe -->
+	<item component="ComponentInfo{com.sonymobile.backuprestore/com.sonymobile.backuprestore.BackupRestoreActivity}" drawable="xperia_security_vault" />
+	<item component="ComponentInfo{com.samsung.knox.securefolder/com.samsung.knox.securefolder.switcher.SecureFolderShortcutActivity}" drawable="xperia_security_vault" />
+	<item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="xperia_security_vault" />
+	<item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="xperia_security_vault" />
+	<item component="ComponentInfo{com.domobile.applock/com.domobile.applock.MainTabActivity}" drawable="xperia_security_vault" />
+	<item component="ComponentInfo{com.sp.protector.free/com.sp.protector.free.MainActivity}" drawable="xperia_security_vault" />
 </resources>

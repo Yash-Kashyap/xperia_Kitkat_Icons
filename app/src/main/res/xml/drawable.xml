@@ -3,6 +3,10 @@
 	<version>1</version>
 
 	<category title="Sony Xperia" />
+	<item drawable="camera_cybershot" />
+	<item drawable="xperia_update_center" />
+	<item drawable="xperia_security_vault" />
+	<item drawable="sim_toolkit" />
 	<item drawable="appicon_lifelog" />
 	<item drawable="appicon_playstation" />
 	<item drawable="appicon_playstation_2" />
@@ -475,6 +479,10 @@
 	<item drawable="lg_launcher_ic_alphabet_9" />
 
 	<category title="Alts" />
+	<item drawable="camera_cybershot" />
+	<item drawable="xperia_update_center" />
+	<item drawable="xperia_security_vault" />
+	<item drawable="sim_toolkit" />
 	<item drawable="browser_kitkat" />
 	<item drawable="browser_xperia" />
 	<item drawable="c_users_kiyan_gym_desktop_xperia_home" />
