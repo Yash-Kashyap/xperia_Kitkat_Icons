@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="changelog_date">Initial Release</string>
+	<string-array name="changelog">
+		<item>Initial release with 595 Sony Xperia and Android 4.4 KitKat icons</item>
+		<item>Multiple alternatives for core apps (Phone, Camera, Walkman, WhatsApp, YouTube, Instagram, etc.)</item>
+		<item>Compatible with Nova Launcher, Lawnchair, Smart Launcher, Niagara, and others</item>
+	</string-array>
+</resources>

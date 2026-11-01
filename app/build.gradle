@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk = rootProject.ext.CompileSdk
+
+    buildFeatures {
+        resValues true
+    }
+
+    namespace 'com.xperia.kitkat.icons'
+
+    defaultConfig {
+        applicationId "com.xperia.kitkat.icons"
+        minSdkVersion rootProject.ext.MinSdk
+        targetSdkVersion rootProject.ext.TargetSdk
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+
+        tasks.withType(Jar).configureEach {
+            archiveBaseName.set("xperia-kitkat-v${versionCode}")
+        }
+    }
+
+    bundle {
+        language {
+            enableSplit false
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            minifyEnabled false
+        }
+    }
+
+    flavorDimensions "variant"
+    productFlavors {
+        foss {
+            dimension "variant"
+            resValue "string", "app_name", "Xperia KitKat"
+            matchingFallbacks = ["foss"]
+        }
+    }
+
+    sourceSets {
+        foss { java.srcDirs = ['src/foss/java/'] }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+dependencies {
+    fossImplementation 'com.github.donnnno:candybar-foss:3.23.0'
+}

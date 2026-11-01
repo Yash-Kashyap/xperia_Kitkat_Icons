@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- DEFAULT THEME -->
+    <string name="default_theme">auto</string>
+    <bool name="material_you_by_default">true</bool>
+
+    <!-- MUZEI -->
+    <string name="muzei_art_source_name">Xperia Wallpapers</string>
+    <string name="muzei_art_source_desc">Wallpapers for Xperia KitKat</string>
+    <color name="muzei_color">#2196F3</color>
+
+    <!-- KUSTOM -->
+    <string name="kustom_pack_title">@string/app_name</string>
+    <string name="kustom_pack_description">Xperia KitKat Presets</string>
+
+    <!-- HOME -->
+    <string name="home_title">Xperia KitKat</string>
+    <string name="home_image">ic_home_header</string>
+    <string name="home_image_style">card_landscape</string>
+    <string name="home_description">
+        <![CDATA[
+            <p>Welcome to <b>Xperia KitKat Icons</b>!</p>
+            <br>
+            <p>This icon pack brings the nostalgic classic design of Sony Xperia Z-series and Android 4.4 KitKat to your modern Android home screen.</p>
+            <br>
+            <p>Compatible with launchers like <b>Nova Launcher</b>, <b>Lawnchair</b>, <b>Smart Launcher</b>, <b>Niagara Launcher</b>, and many more.</p>
+            <br>
+            <p>💡 <b>Tip for Nova &amp; Lawnchair users:</b> Long-press any app icon on your home screen, tap <i>Edit</i>, then tap the icon to browse all alternative styles and retro variants!</p>
+        ]]>
+    </string>
+
+    <string name="rate_and_review_link"></string>
+    <string name="share_link"></string>
+    <bool name="enable_check_update">false</bool>
+    <string name="google_play_dev"></string>
+    <bool name="use_flat_card">true</bool>
+
+    <!-- NAVIGATION VIEW HEADER -->
+    <string name="navigation_view_header">ic_nav_header</string>
+    <string name="navigation_view_header_title">Xperia KitKat</string>
+
+    <!-- APPLY -->
+    <bool name="enable_apply">true</bool>
+
+    <!-- ICONS -->
+    <bool name="enable_icons_sort">false</bool>
+    <bool name="show_icon_name">true</bool>
+    <bool name="includes_adaptive_icons">false</bool>
+
+    <!-- ICON REQUEST -->
+    <bool name="enable_icon_request">true</bool>
+    <bool name="enable_icon_request_limit">false</bool>
+    <bool name="enable_icon_request_multiple">false</bool>
+    <integer name="icon_request_limit">50</integer>
+    <bool name="reset_icon_request_limit">true</bool>
+    <bool name="json_check_before_request">false</bool>
+    <bool name="enable_premium_request">false</bool>
+    <bool name="enable_non_mail_app_request">true</bool>
+    <bool name="hide_missing_app_count">false</bool>
+    <string name="regular_request_method">email</string>
+    <string name="premium_request_method"></string>
+    <string name="regular_request_email">support@xperia.kitkat</string>
+    <string name="premium_request_email"></string>
+    <string name="regular_request_email_subject">Xperia KitKat Icon Request</string>
+    <string name="premium_request_email_subject"></string>
+    <string name="regular_request_pacific_api_key"></string>
+    <string name="premium_request_pacific_api_key"></string>
+
+    <!-- WALLPAPERS -->
+    <string name="wallpaper_json"></string>
+    <bool name="enable_wallpaper_download">true</bool>
+    <bool name="wallpaper_show_name_author">true</bool>
+    <string name="wallpaper_grid_preview_style">portrait</string>
+
+    <!-- ABOUT -->
+    <string name="about_image">home</string>
+    <string name="about_profile_image">ic_splash_screen</string>
+    <string name="about_title">Xperia KitKat</string>
+    <string name="about_desc">
+        <![CDATA[
+            Xperia KitKat Icon Pack brings high-definition retro aesthetics from classic Sony Xperia devices and Android 4.4 KitKat.
+        ]]>
+    </string>
+
+    <string-array name="about_social_links"></string-array>
+    <bool name="show_contributors_dialog">false</bool>
+    <string name="privacy_policy_link"></string>
+    <string name="terms_and_conditions_link"></string>
+
+    <!-- DONATE -->
+    <bool name="enable_donation">false</bool>
+
+    <!-- MISC -->
+    <bool name="playstore_check_enabled">false</bool>
+    <string name="config_json"></string>
+    <bool name="show_intro">true</bool>
+
+</resources>

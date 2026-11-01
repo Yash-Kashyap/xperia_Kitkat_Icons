@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Remove the Launcher that you don't want to show in apply section -->
+
+    <string-array name="dashboard_launchers">
+        <!--<item>abc</item>-->
+        <item>action</item>
+        <!--<item>adw</item>-->
+        <item>apex</item>
+        <!--<item>atom</item>-->
+        <!--<item>aviate</item>-->
+        <item>before</item>
+        <!--<item>blackberry</item>-->
+        <!--<item>cm_theme</item>-->
+        <!--<item>evie</item>-->
+        <item>coloros</item>
+        <item>flick</item>
+        <item>go_ex</item>
+        <item>hios</item>
+        <!--<item>holo</item>-->
+        <!--<item>holo_hd</item>-->
+        <item>hyperion</item>
+        <item>ion_launcher</item>
+        <item>kiss</item>
+        <item>kvaesitso</item>
+        <item>lawnchair</item>
+        <item>lawnchair_legacy</item>
+        <!-- <item>lg_home</item> -->
+        <item>lucid</item>
+        <item>microsoft</item>
+        <!-- <item>moto</item> -->
+        <item>mlauncher</item>
+        <!-- <item>moto_launcher</item> -->
+        <item>niagara</item>
+        <!--<item>next</item>-->
+        <item>nothing</item>
+        <item>nougat</item>
+        <item>neo</item>
+        <item>nova</item>
+        <item>oxygenos</item>
+        <item>pixel</item>
+        <item>poco</item>
+        <item>projectivy</item>
+        <item>posidon</item>
+        <item>smart</item>
+        <item>solo</item>
+        <item>square</item>
+        <!--<item>v</item>-->
+        <item>tinybit</item>
+        <item>yasan</item>
+        <item>zenui</item>
+        <!--<item>zero</item>-->
+    </string-array>
+
+</resources>

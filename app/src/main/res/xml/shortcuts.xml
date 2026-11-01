@@ -1,0 +1,55 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+
+    <!-- Shortcut for Apply -->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_drawer_apply"
+        android:shortcutId="nav_apply"
+        android:shortcutShortLabel="@string/navigation_view_apply">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.xperia.kitkat.icons"
+            android:targetClass="com.xperia.kitkat.icons.activities.MainActivity">
+            <extra
+                android:name="position"
+                android:value="1" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!-- Shortcut for Icon Request -->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_drawer_request"
+        android:shortcutId="nav_request"
+        android:shortcutShortLabel="@string/navigation_view_request">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.xperia.kitkat.icons"
+            android:targetClass="com.xperia.kitkat.icons.activities.MainActivity">
+            <extra
+                android:name="position"
+                android:value="3" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <!-- Shortcut for Wallpapers -->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_drawer_wallpapers"
+        android:shortcutId="nav_wallpapers"
+        android:shortcutShortLabel="@string/navigation_view_wallpapers">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.xperia.kitkat.icons"
+            android:targetClass="com.xperia.kitkat.icons.activities.MainActivity">
+            <extra
+                android:name="position"
+                android:value="4" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

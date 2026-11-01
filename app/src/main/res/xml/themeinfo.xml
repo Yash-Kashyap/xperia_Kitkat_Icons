@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<themeInfo>
+    <packageName>com.xperia.kitkat.icons</packageName>
+    <versionName>1.0.0</versionName>
+    <versionCode>100</versionCode>
+    <themeName>Xperia KitKat</themeName>
+    <themePointColor>#2196F3</themePointColor>
+    <themePreview img1="ic_home_header" />
+    <preview img1="ic_home_header" />
+</themeInfo>

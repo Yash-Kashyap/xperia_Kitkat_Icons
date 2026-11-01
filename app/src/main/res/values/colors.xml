@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="splashColor">#FFF</color>
+    <!-- Shortcut Icons -->
+    <color name="shortcutIconBackground">#26C484</color>
+    <color name="shortcutIconForeground">#FFF</color>
+
+    <color name="ic_launcher_background">#56595b</color>
+
+</resources>

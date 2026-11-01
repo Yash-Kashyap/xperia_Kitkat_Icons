@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <bool name="enable_premium_request">false</bool>
+    <string name="home_description">
+        <![CDATA[
+            <p>Welcome to <b>Xperia KitKat Icons</b>!</p>
+            <br>
+            <p>This icon pack brings the classic design of Sony Xperia Z-series and Android 4.4 KitKat to modern Android launchers like Nova, Lawnchair, and Niagara.</p>
+            <br>
+            <p>💡 <b>Tip:</b> Long-press any app icon on your launcher home screen, tap <i>Edit</i>, and tap the icon to browse all alternative styles and retro variants!</p>
+        ]]>
+    </string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <version>1</version>
+    <pkgName>com.xperia.kitkat.icons</pkgName>
+    <themeName>Xperia KitKat</themeName>
+    <themeInfo>Sony Xperia and Android 4.4 KitKat icons</themeInfo>
+    <preview img1="ic_home_header" />
+</theme>
