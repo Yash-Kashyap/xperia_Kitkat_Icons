@@ -1,60 +1,821 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<scale factor="1" />
-	<item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="googlechrome" />
+	<!-- Glossy icons -->
+	<item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="glossy_adobe_reader_v11_4_1" />
+	<item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="glossy_amazon" />
+	<item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.splashscreen.StartupActivity}" drawable="glossy_amazon" />
+	<item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.navigation.MainActivity}" drawable="glossy_amazon" />
+	<item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.web.MShopWebGatewayActivity}" drawable="glossy_amazon" />
+	<item component="ComponentInfo{com.rovio.angrybirds/com.rovio.ka3d.App}" drawable="glossy_angry_birds_v4_0_0" />
+	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="glossy_aosp_browser" />
+	<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="glossy_aosp_calculator" />
+	<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="glossy_aosp_camera" />
+	<item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="glossy_aosp_camera" />
+	<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="glossy_aosp_contacts" />
+	<item component="ComponentInfo{com.android.email/com.android.email.activity.Welcome}" drawable="glossy_aosp_email" />
+	<item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="glossy_aosp_settings" />
+	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity}" drawable="glossy_aosp_sim_toolkit" />
+	<item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="glossy_aosp_smsmms" />
+	<item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}" drawable="glossy_aosp_soundrecorder" />
+	<item component="ComponentInfo{com.android.camera/com.android.camera.VideoCamera}" drawable="glossy_aosp_video_camera" />
+	<item component="ComponentInfo{com.bbm/com.bbm.ui.activities.StartupActivity}" drawable="glossy_bbm_v2_9_0_51" />
+	<item component="ComponentInfo{com.king.candycrushsaga/com.king.candycrushsaga.CandyCrushSagaActivity}" drawable="glossy_candy_crush_v1_69_0_6" />
+	<item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="glossy_chrome_v27_0_1453_90" />
+	<item component="ComponentInfo{com.supercell.clashofclans/com.supercell.titan.GameApp}" drawable="glossy_clash_of_clans_v9_105_9" />
+	<item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}" drawable="glossy_dropbox_v2_3_2_26" />
+	<item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay}" drawable="glossy_ebay_v2_3_0_25" />
+	<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.view.FileExplorerActivity}" drawable="glossy_es_file_explorer_v4_0_4" />
+	<item component="ComponentInfo{com.evernote/com.evernote.ui.HomeActivity}" drawable="glossy_evernote_v4_1_1" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="glossy_facebook_v7_0_0_22_28" />
+	<item component="ComponentInfo{com.dotgears.flappybird/com.dotgears.flappybird.SplashScreen}" drawable="glossy_flappy_bird_v1_0" />
+	<item component="ComponentInfo{flipboard.app/flipboard.activities.LaunchActivity}" drawable="glossy_flipboard_v2_1_3" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.SplashActivity}" drawable="glossy_flipkart_v2_6_0_1" />
+	<item component="ComponentInfo{com.halfbrick.fruitninja/com.halfbrick.mortar.MortarGameActivity}" drawable="glossy_fruit_ninja_v2_3_2" />
+	<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="glossy_gmail_v4_7_2" />
+	<item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="glossy_google_drive_v2_1_495_10_33" />
+	<item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="glossy_google_maps_v7_6_1" />
+	<item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="glossy_google_play_music_v5_8_1810r_1720607" />
+	<item component="ComponentInfo{com.google.android.apps.plus/com.google.android.apps.plus.phone.HomeActivity}" drawable="glossy_google_plus_v4_3_0_62241793" />
+	<item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="glossy_hangouts_v4_0_4488656" />
+	<item component="ComponentInfo{com.imo.android.imoim/com.imo.android.imoim.activities.Home}" drawable="glossy_imo_v8_6_0" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="glossy_instagram_v6_11_2" />
+	<item component="ComponentInfo{kik.android/kik.android.chat.activity.IntroActivity}" drawable="glossy_kik_v7_5_0_121" />
+	<item component="ComponentInfo{jp.naver.line.android/jp.naver.line.android.activity.SplashActivity}" drawable="glossy_line_v6_3_0" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}" drawable="glossy_linkedin_v2_5_5" />
+	<item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="glossy_messenger_v24_0_0_17_13" />
+	<item component="ComponentInfo{com.mojang.minecraftpe/com.mojang.minecraftpe.MainActivity}" drawable="glossy_minecraft_free_com_mojang_minecraftpe_v0_11_0" />
+	<item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="glossy_netflix_v3_14_3" />
+	<item component="ComponentInfo{com.opera.mini.native/com.opera.mini.android.Browser}" drawable="glossy_opera_mini_v7_5_3" />
+	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.landingpage.activity.AJRMainActivity}" drawable="glossy_paytm_v4_2" />
+	<item component="ComponentInfo{me.pou.app/me.pou.app.App}" drawable="glossy_pou_v1_0_10" />
+	<item component="ComponentInfo{com.lenovo.anyshare.gps/com.lenovo.anyshare.activity.SplashActivity}" drawable="glossy_shareit_v3_6_38ww" />
+	<item component="ComponentInfo{com.shazam.android/com.shazam.android.activities.MainActivity}" drawable="glossy_shazam_v4_3_0jb81291" />
+	<item component="ComponentInfo{com.skype.raider/com.skype.raider.Main}" drawable="glossy_skype_v5_2_0_62296" />
+	<item component="ComponentInfo{com.snapchat.android/com.snap.mushroom.MainActivity}" drawable="glossy_snapchat_v1_0_0" />
+	<item component="ComponentInfo{com.kiloo.subwaysurf/com.sybogames.chili.multiplayer.SybogamesActivity}" drawable="glossy_subway_surfers_v1_43_0" />
+	<item component="ComponentInfo{com.outfit7.talkingtom/com.outfit7.talkingtom.Main}" drawable="glossy_talking_tom_v2_7" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="glossy_telegram_v1_9_4" />
+	<item component="ComponentInfo{com.imangi.templerun/com.imangi.templerun.TempleRun}" drawable="glossy_temple_run_v1_0_7" />
+	<item component="ComponentInfo{com.truecaller/com.truecaller.ui.TruecallerInit}" drawable="glossy_truecaller_v4_35" />
+	<item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="glossy_twitter_v3_3_0" />
+	<item component="ComponentInfo{com.UCMobile.intl/com.UCMobile.main.UCMobile}" drawable="glossy_uc_browser_v10_7_5" />
+	<item component="ComponentInfo{com.uc.browser.en/com.UCMobile.main.UCMobile}" drawable="glossy_uc_browser_v10_7_5" />
+	<item component="ComponentInfo{com.viber.voip/com.viber.voip.WelcomeActivity}" drawable="glossy_viber_v5_2_1_36" />
+	<item component="ComponentInfo{co.vine.android/co.vine.android.StartActivity}" drawable="glossy_vine_v1_0_0" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="glossy_whatsapp_v2_9_3697" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.HomeActivity}" drawable="glossy_whatsapp_v2_9_3697" />
+	<item component="ComponentInfo{com.abdownloadmanager/com.abdownloadmanager.android.ui.MainActivity}" drawable="glossy_s23_ab_dm" />
+	<item component="ComponentInfo{com.abdownloadmanager/com.abdownloadmanager.browser.BrowserIconInLauncher}" drawable="glossy_s23_ab_dm" />
+	<item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}" drawable="glossy_s23_assistant" />
+	<item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivityV2}" drawable="glossy_s23_assistant" />
+	<item component="ComponentInfo{com.ojassoft.astrosage/com.ojassoft.astrosage.ui.act.ActAppSplash}" drawable="glossy_s23_astrosage_ai" />
+	<item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}" drawable="glossy_s23_authenticator_authenticator" />
+	<item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator2.main.MainActivity}" drawable="glossy_s23_authenticator_authenticator2" />
+	<item component="ComponentInfo{com.binance.dev/com.eaas.launcher.activities.main.MainActivity}" drawable="glossy_s23_binance" />
+	<item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="glossy_s23_bitwarden" />
+	<item component="ComponentInfo{com.comuto/android.permission.ACCESS_NETWORK_STATE}" drawable="glossy_s23_blablacar" />
+	<item component="ComponentInfo{com.comuto/com.comuto.proxy.ProxyActivity}" drawable="glossy_s23_blablacar" />
+	<item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.HFS}" drawable="glossy_s23_blinkit" />
+	<item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.DIWALI}" drawable="glossy_s23_blinkit" />
+	<item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.DEFAULT}" drawable="glossy_s23_blinkit" />
+	<item component="ComponentInfo{net.blip.android/net.blip.android.MainActivity}" drawable="glossy_s23_blip" />
+	<item component="ComponentInfo{com.facebook.pages.app/com.facebook.pages.app.auth.PagesManagerLoginActivity}" drawable="glossy_s23_business_suite" />
+	<item component="ComponentInfo{com.dreamplug.androidapp/com.dreamplug.androidapp.CredFlutterActivity}" drawable="glossy_s23_cred" />
+	<item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="glossy_s23_calculator" />
+	<item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="glossy_s23_camera_camera" />
+	<item component="ComponentInfo{com.samsung.agc.gcam92/com.android.camera.CameraLauncher}" drawable="glossy_s23_camera_gcam92" />
+	<item component="ComponentInfo{com.canva.editor/com.canva.app.editor.splash.SplashActivity}" drawable="glossy_s23_canva" />
+	<item component="ComponentInfo{com.lemon.lvoverseas/com.vega.main.MainActivity}" drawable="glossy_s23_capcut" />
+	<item component="ComponentInfo{com.openai.chatgpt/android.support.customtabs.action.CustomTabsService}" drawable="glossy_s23_chatgpt" />
+	<item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="glossy_s23_chatgpt" />
+	<item component="ComponentInfo{com.anthropic.claude/com.anthropic.claude.mainactivity.MainActivity}" drawable="glossy_s23_claude" />
+	<item component="ComponentInfo{com.lagradost.cloudstream3/com.lagradost.cloudstream3.ui.account.AccountSelectActivity}" drawable="glossy_s23_cloudstream" />
+	<item component="ComponentInfo{com.microsoft.windowsintune.companyportal/com.microsoft.windowsintune.companyportal.views.SplashActivity}" drawable="glossy_s23_company_portal" />
+	<item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="glossy_s23_contacts" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainDefault}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainBrandInverted}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainMatteDark}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainMatteLight}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainBrandDark}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainPastel}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainPirate}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainCamo}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainSunset}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainGalaxy}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainY2K}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainCherryBlossom}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainBeanie}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainGaming}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainCircuit}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainHoloWaves}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainBlush}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainAngry}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainManga}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainController}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainMushroom}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainZombie}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainClydeStein}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainSlimy}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainDrip}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainBlurpleTwilight}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainInRainbows}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainMidnightPrism}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainColorWave}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainHexagon}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainTreat}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.discord/com.discord.main.MainTrick}" drawable="glossy_s23_discord" />
+	<item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="glossy_s23_docs" />
+	<item component="ComponentInfo{com.instagram.basel/com.instagram.basel.mainactivity.BaselActivity}" drawable="glossy_s23_edits" />
+	<item component="ComponentInfo{com.instagram.basel/com.instagram.basel.InternalLauncher}" drawable="glossy_s23_edits" />
+	<item component="ComponentInfo{com.samsung.android.app.galaxyraw/com.samsung.android.app.galaxyraw.GalaxyRaw}" drawable="glossy_s23_expert_raw" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.worldcup_ic}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.fab_ic}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.vaporwave_ic}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.fierce_ic}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.loved_ic}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.dreamy_ic}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.quiet_cool}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.katana}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity.blue_fb}" drawable="glossy_s23_facebook" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppCool}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppMomo}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppMinimal}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppFlaming}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppPride}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppCuddling}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppPixelated}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppRetro2004}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppGradientNorthernLights}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppGradientMidnight}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppGradientTwilight}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppGradientBlueHour}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppGradientSunset}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppGradientGoldenHour}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppGradientSunrise}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppSolidPurpleDark}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppSolidPurple}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppSolidBlue}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppSolidGreen}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppSolidRed}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppSolidDark}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AppSolidLight}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.AlternativeApp}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="glossy_s23_firefox" />
+	<item component="ComponentInfo{com.fiverr.fiverr/com.fiverr.fiverr.activityandfragments.entrypoints.FVREntryPoint}" drawable="glossy_s23_fiverr" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.IdSaleIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.GoatSaleIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.GrwmSaleIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.SASALELEIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.ValentineIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.NewYearIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.ChristmasIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.BBDIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.DiwaliIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.VIPIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.GoldIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.SilverIconAlias}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.flipkart.android/com.flipkart.android.activity.launchershortcut.MinutesLauncherShortcutActivity}" drawable="glossy_s23_flipkart" />
+	<item component="ComponentInfo{com.google.android.apps.labs.whisk/com.google.android.apps.labs.whisk.MainActivity}" drawable="glossy_s23_flow" />
+	<item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.LauncherActivity}" drawable="glossy_s23_gpay" />
+	<item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity}" drawable="glossy_s23_galaxy_store" />
+	<item component="ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}" drawable="glossy_s23_gallery" />
+	<item component="ComponentInfo{com.samsung.android.game.gamehome/com.samsung.android.game.gamehome.app.MainActivity}" drawable="glossy_s23_gaming_hub" />
+	<item component="ComponentInfo{com.google.android.apps.bard/com.google.android.apps.bard.shellapp.BardEntryPointActivity}" drawable="glossy_s23_gemini" />
+	<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="glossy_s23_gmail" />
+	<item component="ComponentInfo{com.samsung.android.goodlock/com.samsung.android.goodlock.MainActivity}" drawable="glossy_s23_good_lock" />
+	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.launcher.RobinEntryPointActivity}" drawable="glossy_s23_google" />
+	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="glossy_s23_google" />
+	<item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="glossy_s23_google_news" />
+	<item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="glossy_s23_google_play_store" />
+	<item component="ComponentInfo{cris.org.in.prs.ima/android.permission.VIBRATE}" drawable="glossy_s23_irctc_rail_connect" />
+	<item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.prs.ima.MainActivity}" drawable="glossy_s23_irctc_rail_connect" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.InternalLauncher}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.bipSplashSmokeTest}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.kpop}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.floral}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.flame}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.slime}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.neon}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.metal}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.haruko}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.felipe}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.humberto}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.zipeng}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.uzo}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.ricky}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity.throwback}" drawable="glossy_s23_instagram" />
+	<item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="glossy_s23_keep_notes" />
+	<item component="ComponentInfo{com.example.kitkatwidgets/com.example.kitkatwidgets.MainActivity}" drawable="glossy_s23_kitkat_widgets" />
+	<item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher}" drawable="glossy_s23_lawnchair" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_pride_transgender}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_pride_bisexual}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_pride_gaymen}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_pride_lesbian}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_pride_progress}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_pride}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_dreambig}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_oppenheimer}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_barbie}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_acrossthespiderverse}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_intothespiderverse}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_backrooms}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_lalaland}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_obsession}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_valentines}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_whitechristmas}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_blackchristmas}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_therewillbeblood}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_horrorville}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_coloroutofspace}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_theneondemon}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_thewolfofsnowhollow}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_littlemisssunshine}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_prettyinpink}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_butimacheerleader}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_mysteriousskin}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_twilight}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_greenroom}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_thecolorpurple}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_bluevelvet}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_legobatman}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_whitesquall}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_thegrey}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.letterboxd.letterboxd/com.letterboxd.letterboxd.MainActivity_icon_blackswan}" drawable="glossy_s23_letterboxd" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.SpringActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.IntlWomensDayActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LunarNewYearActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.YIRActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.DiwaliActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaborDayActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.BirthdayActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.IndianIndependenceActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.SummerSolsticeFestivalActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.EarthFestivalActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.CarnivalFestivalActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.NYEFestivalActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.WinterFestivalActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.GraduationActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.FallFestivalActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.AATestDefaultActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.AnniversaryActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.PremiumV3ActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.PremiumV2ActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.PremiumV1ActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.PremiumActivityDefault}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.BackToSchoolActivityAlias}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivityDefault}" drawable="glossy_s23_linkedin" />
+	<item component="ComponentInfo{org.localsend.localsend_app/org.localsend.localsend_app.MainActivity}" drawable="glossy_s23_localsend" />
+	<item component="ComponentInfo{com.google.android.apps.maps/com.google.android.apps.auto.client.activity.ghost.GhostActivity}" drawable="glossy_s23_maps" />
+	<item component="ComponentInfo{com.meesho.supply/com.meesho.supply.saleAug26}" drawable="glossy_s23_meesho" />
+	<item component="ComponentInfo{com.meesho.supply/com.meesho.supply.saleSept25}" drawable="glossy_s23_meesho" />
+	<item component="ComponentInfo{com.meesho.supply/com.meesho.supply.saleOct24}" drawable="glossy_s23_meesho" />
+	<item component="ComponentInfo{com.meesho.supply/com.meesho.supply.sale01Sept24}" drawable="glossy_s23_meesho" />
+	<item component="ComponentInfo{com.meesho.supply/com.meesho.supply.default}" drawable="glossy_s23_meesho" />
+	<item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="glossy_s23_meet" />
+	<item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="glossy_s23_messages_messaging" />
+	<item component="ComponentInfo{com.samsung.android.messaging/com.android.mms.ui.ConversationComposer}" drawable="glossy_s23_messages_messaging" />
+	<item component="ComponentInfo{com.samsung.android.app.routines/com.samsung.android.app.routines.ui.main.RoutineLaunchActivityDummy}" drawable="glossy_s23_modes_and_routines" />
+	<item component="ComponentInfo{app.morphe.manager/app.morphe.manager.MainActivity_Dark_3}" drawable="glossy_s23_morphe" />
+	<item component="ComponentInfo{app.morphe.manager/app.morphe.manager.MainActivity_Dark_2}" drawable="glossy_s23_morphe" />
+	<item component="ComponentInfo{app.morphe.manager/app.morphe.manager.MainActivity_Dark_1}" drawable="glossy_s23_morphe" />
+	<item component="ComponentInfo{app.morphe.manager/app.morphe.manager.MainActivity_Light_3}" drawable="glossy_s23_morphe" />
+	<item component="ComponentInfo{app.morphe.manager/app.morphe.manager.MainActivity_Light_2}" drawable="glossy_s23_morphe" />
+	<item component="ComponentInfo{app.morphe.manager/app.morphe.manager.MainActivity_Default}" drawable="glossy_s23_morphe" />
+	<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivity}" drawable="glossy_s23_myjio" />
+	<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivityAlias}" drawable="glossy_s23_myjio" />
+	<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivityAlias1}" drawable="glossy_s23_myjio" />
+	<item component="ComponentInfo{com.jio.myjio/com.jio.myjio.dashboard.activities.SplashActivityAlias2}" drawable="glossy_s23_myjio" />
+	<item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.ui.MainActivity}" drawable="glossy_s23_my_files" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.react.ReactActivity}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.react.ReactActivity.DEFAULT_TEST_NEW}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.react.ReactActivity.EORS_DEC_SECONDARY}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.react.ReactActivity.EORS_JUNE_2026}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.react.ReactActivity.EORS_DEC_WINTER}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.react.ReactActivity.DIWALI_PRIMARY}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.react.ReactActivity.BFF_PRIMARY}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{com.myntra.android/com.myntra.android.activities.FwdShortcutActivity}" drawable="glossy_s23_myntra" />
+	<item component="ComponentInfo{naukriApp.appModules.login/com.naukri.splash.SplashActivity}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/naukriApp.appModules.login.NaukriProAlias}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/naukriApp.appModules.login.NewYearAlias}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/naukriApp.appModules.login.BpmAlias}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/naukriApp.appModules.login.WomenDayAlias}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/naukriApp.appModules.login.EngWeekAlias}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/naukriApp.appModules.login.TopTierSplashActivityAlias}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{naukriApp.appModules.login/androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity}" drawable="glossy_s23_naukri" />
+	<item component="ComponentInfo{com.teslacoilsw.launcher/android.permission.POST_NOTIFICATIONS}" drawable="glossy_s23_nova_launcher" />
+	<item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaLauncher}" drawable="glossy_s23_nova_launcher" />
+	<item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="glossy_s23_nova_launcher" />
+	<item component="ComponentInfo{com.nuvio.app/com.nuvio.app.launcher.AppIconDefault}" drawable="glossy_s23_nuvio" />
+	<item component="ComponentInfo{com.nuvio.app/com.nuvio.app.launcher.AppIconArcticBlue}" drawable="glossy_s23_nuvio" />
+	<item component="ComponentInfo{com.nuvio.app/com.nuvio.app.launcher.AppIconEmerald}" drawable="glossy_s23_nuvio" />
+	<item component="ComponentInfo{com.nuvio.app/com.nuvio.app.launcher.AppIconRoseGold}" drawable="glossy_s23_nuvio" />
+	<item component="ComponentInfo{com.nuvio.app/com.nuvio.app.launcher.AppIconCopper}" drawable="glossy_s23_nuvio" />
+	<item component="ComponentInfo{com.nuvio.app/com.nuvio.app.launcher.AppIconGraphite}" drawable="glossy_s23_nuvio" />
+	<item component="ComponentInfo{com.olx.southasia/com.olxgroup.panamera.app.users.onboarding.activities.SplashActivity}" drawable="glossy_s23_olx_india" />
+	<item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="glossy_s23_onedrive" />
+	<item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.photos.PhotosLauncherActivity}" drawable="glossy_s23_onedrive" />
+	<item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="glossy_s23_outlook" />
+	<item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainCalendarActivity}" drawable="glossy_s23_outlook" />
+	<item component="ComponentInfo{com.playfy.tv/com.playfy.tv.activities.SplashActivity}" drawable="glossy_s23_playfy_tv" />
+	<item component="ComponentInfo{com.Version1/com.Version1.MainActivity}" drawable="glossy_s23_pnb_one" />
+	<item component="ComponentInfo{com.paypal.android.p2pmobile/com.paypal.oslo.app.MainActivity}" drawable="glossy_s23_paypal" />
+	<item component="ComponentInfo{com.hdfcbank.payzapp/com.apollorncontainer.activities.SplashActivity}" drawable="glossy_s23_payzapp" />
+	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.permission.UA_DATA}" drawable="glossy_s23_paytm" />
+	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.alias_icon_stage4}" drawable="glossy_s23_paytm" />
+	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.alias_icon_stage3}" drawable="glossy_s23_paytm" />
+	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.alias_icon_stage2}" drawable="glossy_s23_paytm" />
+	<item component="ComponentInfo{net.one97.paytm/net.one97.paytm.alias_icon_stage1}" drawable="glossy_s23_paytm" />
+	<item component="ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}" drawable="glossy_s23_phone" />
+	<item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="glossy_s23_photos" />
+	<item component="ComponentInfo{com.picsart.studio/com.socialin.android.photo.picsinphoto.MainPagerActivity}" drawable="glossy_s23_picsart" />
+	<item component="ComponentInfo{com.pikkndrop.app/com.pikkndrop.app.MainActivity}" drawable="glossy_s23_pikkndrop" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.MainActivity}" drawable="glossy_s23_proton_mail" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingWeather}" drawable="glossy_s23_proton_mail" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingNotes}" drawable="glossy_s23_proton_mail" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingCalculator}" drawable="glossy_s23_proton_mail" />
+	<item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.RoutingActivity}" drawable="glossy_s23_proton_mail" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.NavratriAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.CricketAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.ValentineAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.FlagAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.DiwaliAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.HoliAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.ChristmasAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.NewYearAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.DiscountAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.OfferAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.CloneDefaultAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.DefaultAlias}" drawable="glossy_s23_rapido" />
+	<item component="ComponentInfo{com.ea.games.r3_row/com.firemint.realracing.UnpackAssetsActivity}" drawable="glossy_s23_real_racing_3" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.worldcup2026}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.planet}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.astronaut}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.amazedoge}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.doge}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.stocks}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.rocket}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.tothemoon}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.wallstreet}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.classic}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.alien_blue}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.vitruvian}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.vaporwave}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.retro}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.chibi}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.mechasnoo}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.pixels}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.neon}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.pullover}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.brrr}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.redditgifts}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="glossy_s23_reddit" />
+	<item component="ComponentInfo{com.samsung.android.app.reminder/com.samsung.android.app.reminder.ui.LaunchMainActivity}" drawable="glossy_s23_reminder" />
+	<item component="ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="glossy_s23_samsung_browser" />
+	<item component="ComponentInfo{com.sec.android.app.shealth/com.samsung.android.app.shealth.home.HomeMainActivity}" drawable="glossy_s23_samsung_health" />
+	<item component="ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity}" drawable="glossy_s23_samsung_notes" />
+	<item component="ComponentInfo{com.samsung.android.tvplus/com.samsung.android.tvplus.MainActivity}" drawable="glossy_s23_samsung_tv_plus" />
+	<item component="ComponentInfo{com.samsung.android.spay/android.permission.READ_FRAME_BUFFER}" drawable="glossy_s23_samsung_wallet" />
+	<item component="ComponentInfo{com.samsung.android.spay/com.samsung.android.spay.ui.SpayMainActivity}" drawable="glossy_s23_samsung_wallet" />
+	<item component="ComponentInfo{com.sec.android.easyMover/com.sec.android.easyMover.ui.launch.LauncherActivity}" drawable="glossy_s23_smart_switch" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PumpkinFaceGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EvilCatAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MoonSnapAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MummyGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VoodooAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SkeletonXrayAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VampireFangsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.JokerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CamouflageAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FallSunsetAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NotebookAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PunkGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MotionLinesAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GreenGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ShinyBalloonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.UpsideDownGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FloatieAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LeopardAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlueSpectreAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VampIridescentAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlackMarbleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ThemeGradientPinkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinkBubbleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ChromeDripAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CoquetteAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CherryBlossomAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AntiqueVintageAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HeartsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VDayChromeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PaintLacquerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GoldenAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SparkleShimmerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinkNeonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus2Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DuctTapeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlusBlackAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnappyDoodleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EdgyTextAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GoldBAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SharpieDoodleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CrackedMirrorAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EasterBunnyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlackPantherAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NyeDiscoBallAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.IridescentMarbleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BubbleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FuzzyFleeceAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ValentinesTextEffectAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.IceCubeGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonLightAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ClassicGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DiamondGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RosegoldBlackAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinkGemAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon22Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ValentinesLollipopAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DenimPatchworkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ChillahFaceAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LipstickTextAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AlienAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PicklesGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.WireframeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus3Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.OilPaintingAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LavaAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon21Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PrideAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.KawaiiAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Us2Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FranceAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Y2kSnapAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.UkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.UkraineAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DeniseAbAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HeartCakeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.WildWestAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RetroCartoonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnapTrippyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ValentinesScriptAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.YellowPinkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HeartEyesAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PastelPaintDripAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Jersey67Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AntiquePorcelainAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColorPencilStarsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.OperaAestheticAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GhostStampAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SpringFawnAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.StringLightAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PolkaDotLacquerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ValentinesSugarCookieAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FestiveGoldAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlusGoldAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GemstoneCollageAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnowflakeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CandyCaneAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GingerBreadAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SantaHatAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MushroomAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SteamedDumplingAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PalmAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NyeSwirlAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.WitchHatAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PumpkinLanternAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AbstractFireworksAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AiWaveAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AirbrushSparkleBlueAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AirbrushSparkleGreenAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AngelAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.AnimalAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ArcadeGameAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ArtDecoAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BalloonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BaseballAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BeachChillAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlueDeniseAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BlueDoodleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BluePinkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BluePrintAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BobaAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BratAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BuffaloPlaidAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.BunnyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CeramicAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ChalkboardAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CherryBlossomsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ChromeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ChromeRadiationAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ClownAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColdAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CollageAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColorRibbonsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColorWavesAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColorfulDotsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ColorfulJellyGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ConfettiAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CookieDoughAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CozyGradientAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CupidAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.CybersigilismAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DancePartyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DenimAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DenisePinkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DenisePinkBlueAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DevilAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DiwaliClayLampAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DiwaliFlowerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DiwaliGoldFrameAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DiwaliTypeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DoodleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DreamyGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.DreidelAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EasterEggGrassAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EidAlAdhaAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EggAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.EggSurpriseAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FairyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FallScarfAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FlagAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FlowersAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FoilballoonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FoliageAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FortuneBallAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FriendshipDayGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FrogAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FrostedAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.FurryAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GalaxyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GhostUniverseAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GiftAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GiftWrapAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GingerCookieAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GlassAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GlitterStickerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GlitterAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GlittersAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Gold2Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GoldCAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GoldAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GooeyHalloweenAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GrafittiAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.GreenAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HalloweenEyeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HarvestMoonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HeartCandyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HeartCandiesAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HeartsDarkerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HeatmapAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.HoliPowdersAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon23Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon24Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon25Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Icon26Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ImpressionistAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.KintsugiAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.JellyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LatteArtAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LeafPuddleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LeprechaunAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LeatherAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MagicWandAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MapAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MappaBurlAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MariachiAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Material01Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MemphisAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MeshGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MirrorFieldAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.MummyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NeonWavesAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NorthlightAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NyeConfettiAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NyeGoldAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NyeGoldGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.NyeSnowAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.OrnamentAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinkPurpleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinkSlimeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinkWrapperAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PinwheelAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PixelAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlanetAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Plus1Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PlushAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PopArtAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PopArtSnapAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PoppyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PoolsideAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PotOfGoldAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PumpkinGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PumpkinGhost2Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PumpkinPieFrostingAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PumpkinSoupAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PurpleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.PurpleWhiteAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RainbowAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RainbowBacklightAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RainbowShapeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RamadanFlowerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RamadanNightAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RBGDispersionAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RedmasAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ReindeerAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ResinCharmAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RetroTitleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Retro80sAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RoseDreamAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RosegoldRadiationAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RosesAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RubberDuckyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.RubberhoseAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ScubaAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ShellOnBeachAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SilkAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SilverOnLeatherAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SilverRadialAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SlidePuzzleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnapBalloonAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnapBlueAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnapClonesAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SnowmanGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SparklerSpinAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SpiderWebAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SprayPaintAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SpringAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SpringBubbleTextAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SpringFlowerFieldAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SpringGradientAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SummerForestAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SummerPoolFloatyAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SunburstAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.SweaterGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TealAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.thanksgivingfullAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.thanksgivingleafAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.thanksgivingsignAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TextMeltAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ThemeGradientGreenAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ThemeGradientPurpleAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TieDyeAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ToastedMarshmallowAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TombstoneAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TortoiseShellAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TranslucentGhostHalloweenAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.TulipsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Us1Alias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VampireAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VaporwaveAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.Vday70sLoveAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VDayRainbowAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.VhsAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.WaxSealAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.WitchAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.WoodAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.XrayGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.YellowIridescentAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.ZombieGhostAlias}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="glossy_s23_snapchat" />
+	<item component="ComponentInfo{com.spotify.music/com.spotify.music.main.AppIconEmeraldGreen}" drawable="glossy_s23_spotify" />
+	<item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="glossy_s23_spotify" />
+	<item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.MainActivity}" drawable="glossy_s23_steam" />
+	<item component="ComponentInfo{com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.CategoryPickerActivity}" drawable="glossy_s23_styles_wallpapers" />
+	<item component="ComponentInfo{com.merkost.suby/com.merkost.suby.MainActivity}" drawable="glossy_s23_suby" />
+	<item component="ComponentInfo{in.swiggy.android/in.swiggy.android.FestiveIcon}" drawable="glossy_s23_swiggy" />
+	<item component="ComponentInfo{in.swiggy.android/in.swiggy.android.HomeIconClone}" drawable="glossy_s23_swiggy" />
+	<item component="ComponentInfo{in.swiggy.android/in.swiggy.android.HomeIcon}" drawable="glossy_s23_swiggy" />
+	<item component="ComponentInfo{in.swiggy.android/in.swiggy.android.activities.IMLauncherActivity}" drawable="glossy_s23_swiggy" />
+	<item component="ComponentInfo{com.titancompany.tanishqapp/com.titancompany.tx37consumerapp.JewelleryIcon}" drawable="glossy_s23_tanishq" />
+	<item component="ComponentInfo{com.titancompany.tanishqapp/com.titancompany.tx37consumerapp.DiwaliIcon}" drawable="glossy_s23_tanishq" />
+	<item component="ComponentInfo{com.titancompany.tanishqapp/com.titancompany.tx37consumerapp.DhanterasIcon}" drawable="glossy_s23_tanishq" />
+	<item component="ComponentInfo{com.titancompany.tanishqapp/com.titancompany.tx37consumerapp.DefaultIcon}" drawable="glossy_s23_tanishq" />
+	<item component="ComponentInfo{com.microsoft.teams/com.microsoft.skype.teams.Launcher}" drawable="glossy_s23_teams" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.DefaultIcon}" drawable="glossy_s23_telegram" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.VintageIcon}" drawable="glossy_s23_telegram" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.AquaIcon}" drawable="glossy_s23_telegram" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.PremiumIcon}" drawable="glossy_s23_telegram" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.TurboIcon}" drawable="glossy_s23_telegram" />
+	<item component="ComponentInfo{org.telegram.messenger/org.telegram.messenger.NoxIcon}" drawable="glossy_s23_telegram" />
+	<item component="ComponentInfo{com.samsung.android.themedesigner/com.samsung.android.themedesigner.ui.view.SplashComposeActivity}" drawable="glossy_s23_theme_park" />
+	<item component="ComponentInfo{com.usertesting.recorder.krsna/com.usertesting.recorder.startup.splash.SplashActivity}" drawable="glossy_s23_usertesting" />
+	<item component="ComponentInfo{com.sec.android.app.voicenote/com.sec.android.app.voicenote.main.VNMainActivity}" drawable="glossy_s23_voice_recorder" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon14}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon13}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon12}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon11}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon10}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon09}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon08}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon07}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon06}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon05}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon04}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon03}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon02}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whatsapp/com.whatsapp.AppIcon01}" drawable="glossy_s23_whatsapp" />
+	<item component="ComponentInfo{com.whereismytrain.android/com.whereismytrain.view.activities.MainPagerActivity}" drawable="glossy_s23_where_is_my_train" />
+	<item component="ComponentInfo{com.samsung.android.wonderland.wallpaper/com.samsung.android.wonderland.wallpaper.settings.LandingActivity}" drawable="glossy_s23_wonderland" />
+	<item component="ComponentInfo{com.twitter.android/com.x.android.main.MainActivity}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon2}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon3}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon4}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon5}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon6}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon7}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon8}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon9}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon10}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon11}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon12}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon13}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon14}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon24}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon25}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon26}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon27}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon28}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.twitter.android/com.x.appicon.icon29}" drawable="glossy_s23_x" />
+	<item component="ComponentInfo{com.xperia.kitkat.icons/android.permission.ACCESS_WIFI_STATE}" drawable="glossy_y_sony_ericsson" />
+	<item component="ComponentInfo{com.xperia.kitkat.icons/com.xperia.kitkat.icons.activities.MainActivity}" drawable="glossy_y_sony_ericsson" />
+	<item component="ComponentInfo{com.google.android.apps.youtube.producer/com.google.android.apps.youtube.producer.application.MainActivity}" drawable="glossy_s23_youtube_create" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_1}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_1}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_dark_1}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_light_1}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_1}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_black_1}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_custom_1}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_2}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_2}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_dark_2}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_light_2}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_2}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_black_2}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_custom_2}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_3}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_3}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_dark_3}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_light_3}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_3}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_black_3}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_custom_3}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_4}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_4}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_dark_4}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_light_4}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_4}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_black_4}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_custom_4}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_5}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_5}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_dark_5}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_light_5}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_5}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_play_black_5}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_custom_5}" drawable="glossy_s23_youtube_morphe" />
+	<item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.plugin.PLUGIN_APPLICATION}" drawable="glossy_s23_zarchiver" />
+	<item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiver}" drawable="glossy_s23_zarchiver" />
+	<item component="ComponentInfo{com.zeptoconsumerapp/com.zeptoconsumerapp.MainActivity}" drawable="glossy_s23_zepto" />
+	<item component="ComponentInfo{com.zeptoconsumerapp/com.zeptoconsumerapp.APP_ICON_CAMPAIGN_2}" drawable="glossy_s23_zepto" />
+	<item component="ComponentInfo{com.zeptoconsumerapp/com.zeptoconsumerapp.APP_ICON_CAMPAIGN_1}" drawable="glossy_s23_zepto" />
+	<item component="ComponentInfo{com.application.zomato/com.application.zomato.veg}" drawable="glossy_s23_zomato" />
+	<item component="ComponentInfo{com.application.zomato/com.application.zomato.gold}" drawable="glossy_s23_zomato" />
+	<item component="ComponentInfo{com.application.zomato/com.application.zomato.default}" drawable="glossy_s23_zomato" />
+	<item component="ComponentInfo{com.opsway.boodmo/com.opsway.boodmo.MainActivity}" drawable="glossy_s23_boodmo" />
+	<!-- Classic icons -->
 	<item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="googlechrome" />
 	<item component="ComponentInfo{com.chrome.canary/com.google.android.apps.chrome.Main}" drawable="googlechrome" />
 	<item component="ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}" drawable="googlechrome" />
 	<item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="youtube" />
 	<item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" />
 	<item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_4" />
-	<item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="googlemail" />
-	<item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="googledrive" />
-	<item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos_kitkat" />
-	<item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="googlemaps" />
-	<item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="googleplaystore" />
 	<item component="ComponentInfo{com.google.android.keep/com.google.android.apps.keep.ui.BrowseActivity}" drawable="googlekeep" />
 	<item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="google_translate_2012" />
 	<item component="ComponentInfo{com.google.android.play.games/com.google.android.apps.play.games.features.main.MainActivity}" drawable="googleplaygames" />
 	<item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="googleplaybooks" />
 	<item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntranceActivity}" drawable="googleplaymovies" />
-	<item component="ComponentInfo{com.google.android.talk/com.google.android.talk.SigningInActivity}" drawable="googlehangout" />
-	<item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="googlesearch" />
-	<item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}" drawable="googlevoicesearch" />
 	<item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.main.MainActivity}" drawable="googlewallet" />
 	<item component="ComponentInfo{com.google.android.apps.earth/com.google.android.apps.earth.EarthActivity}" drawable="googleearth" />
 	<item component="ComponentInfo{com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}" drawable="googlekeyboard" />
 	<item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="phone_xperia" />
 	<item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="phone_kitkat" />
-	<item component="ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}" drawable="phone_xperia" />
 	<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.DialerEntryActivity}" drawable="phone_xperia" />
 	<item component="ComponentInfo{com.android.phone/com.android.phone.PrivilegedOutgoingCallBroadcaster}" drawable="phone_kitkat" />
 	<item component="ComponentInfo{com.oneplus.dialer/com.oneplus.dialer.DialtactsActivity}" drawable="phone_xperia" />
 	<item component="ComponentInfo{com.google.android.contacts/com.google.android.apps.contacts.ui.ContactsListActivity}" drawable="contacts_xperia" />
-	<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="contacts_kitkat" />
 	<item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.app.contacts.activity.Main}" drawable="contacts_xperia" />
 	<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.LaunchActivity}" drawable="contacts_xperia" />
-	<item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="messages" />
-	<item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="messages" />
 	<item component="ComponentInfo{com.samsung.android.messaging/com.samsung.android.messaging.ui.view.main.MainActivity}" drawable="messages" />
 	<item component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity}" drawable="messages" />
-	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="browser_kitkat" />
-	<item component="ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="browser_xperia" />
-	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="browser_xperia" />
 	<item component="ComponentInfo{com.opera.browser/com.opera.browser.OperaMainActivity}" drawable="browser_xperia" />
 	<item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="calculator_kitkat" />
-	<item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="calculator_kitkat" />
-	<item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="calculator_xperia" />
 	<item component="ComponentInfo{com.sonymobile.exactcalculator/com.sonymobile.exactcalculator.Calculator}" drawable="calculator_xperia" />
-	<item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar_kitkat" />
-	<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar_kitkat" />
-	<item component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.calendar.activity.MainActivity}" drawable="calendar_xperia" />
-	<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer}" drawable="calendar_xperia" />
-	<item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock_kitkat" />
-	<item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock_kitkat" />
-	<item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="clock_xperia" />
-	<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.alarm.Alarm}" drawable="clock_xperia" />
-	<item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings_xperia" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.MainSettings}" drawable="settings_kitkat" />
 	<item component="ComponentInfo{com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsActivity}" drawable="googlesettings" />
 	<item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryActivity}" drawable="xperia_album" />
@@ -63,42 +824,29 @@
 	<item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="google_photos_kitkat" />
 	<item component="ComponentInfo{com.sonyericsson.music/com.sonyericsson.music.MusicActivity}" drawable="music_icon_blue" />
 	<item component="ComponentInfo{com.google.android.music/com.android.music.activity.TrackBrowserActivity}" drawable="music" />
-	<item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify" />
 	<item component="ComponentInfo{com.marler.otoplayer/com.marler.otoplayer.MainActivity}" drawable="oto_music" />
 	<item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity}" drawable="retro_music" />
-	<item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="whatsapp" />
-	<item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram_retro" />
 	<item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.MainActivity}" drawable="instagram_retro" />
 	<item component="ComponentInfo{com.twitter.android/com.twitter.android.MainActivity}" drawable="twitter" />
 	<item component="ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.MainActivity}" drawable="reddit" />
 	<item component="ComponentInfo{com.pinterest/com.pinterest.activity.PinterestActivity}" drawable="pinterest" />
-	<item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="facebook" />
-	<item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="fb_messngr" />
 	<item component="ComponentInfo{com.google.android.apps.bard/com.google.android.apps.bard.MainActivity}" drawable="gemini" />
-	<item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="gpt" />
 	<item component="ComponentInfo{com.microsoft.copilot/com.microsoft.copilot.MainActivity}" drawable="microsoft_copilot" />
 	<item component="ComponentInfo{ai.x.grok/ai.x.grok.MainActivity}" drawable="grok" />
 	<item component="ComponentInfo{com.sonymobile.lifelog/com.sonymobile.lifelog.activities.MainActivity}" drawable="appicon_lifelog" />
 	<item component="ComponentInfo{com.sonyericsson.trackid/com.sonyericsson.trackid.TrackID}" drawable="trackid" />
 	<item component="ComponentInfo{com.sonymobile.whatsnew/com.sonymobile.whatsnew.MainActivity}" drawable="whatsnew" />
-	<item component="ComponentInfo{com.scee.psxandroid/com.scee.psxandroid.activity.Main}" drawable="ps_app_1" />
+	<item component="ComponentInfo{com.scee.psxandroid/com.scee.psxandroid.activity.Main}" drawable="glossy_playstation" />
 	<item component="ComponentInfo{com.sonymobile.sketch/com.sonymobile.sketch.activities.SketchMainActivity}" drawable="sketch" />
 	<item component="ComponentInfo{com.sonyericsson.extras.liveware/com.sonyericsson.extras.liveware.ui.LiveWareActivity}" drawable="smart_connect" />
 	<item component="ComponentInfo{com.sonymobile.xperiaweather/com.sonymobile.xperiaweather.MainActivity}" drawable="weather" />
 	<item component="ComponentInfo{com.adobe.photoshop/com.adobe.photoshop.MainActivity}" drawable="photoshop_15614" />
 	<item component="ComponentInfo{com.niksoftware.snapseed/com.niksoftware.snapseed.MainActivity}" drawable="snapseed_1" />
-	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="calendar_" />
-	<calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.calendar.activity.MainActivity}" prefix="calendar_" />
 	<!-- Sony Cyber-shot Camera -->
 	<item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="camera_cybershot" />
 	<item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="camera_cybershot" />
-	<item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera_cybershot" />
 	<item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.CameraActivity}" drawable="camera_cybershot" />
-	<item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera_cybershot" />
-	<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera_cybershot" />
 	<!-- SIM Toolkit -->
-	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.stk/com.android.stk.StkMain}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.stk2/com.android.stk2.StkLauncherActivityII}" drawable="sim_toolkit" />
 	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity1}" drawable="sim_toolkit" />
@@ -114,7 +862,6 @@
 	<item component="ComponentInfo{com.sonymobile.backuprestore/com.sonymobile.backuprestore.BackupRestoreActivity}" drawable="xperia_security_vault" />
 	<item component="ComponentInfo{com.samsung.knox.securefolder/com.samsung.knox.securefolder.switcher.SecureFolderShortcutActivity}" drawable="xperia_security_vault" />
 	<item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="xperia_security_vault" />
-	<item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="xperia_security_vault" />
 	<item component="ComponentInfo{com.domobile.applock/com.domobile.applock.MainTabActivity}" drawable="xperia_security_vault" />
 	<item component="ComponentInfo{com.sp.protector.free/com.sp.protector.free.MainActivity}" drawable="xperia_security_vault" />
 
@@ -135,7 +882,6 @@
 	<item component="ComponentInfo{com.bitdefender.security/com.bitdefender.security.MainActivity}" drawable="xperia_security_shield" />
 	<item component="ComponentInfo{com.kms.free/com.kms.free.MainActivity}" drawable="xperia_security_shield" />
 	<item component="ComponentInfo{com.symantec.mobilesecurity/com.symantec.mobilesecurity.ui.AntivirusOverviewActivity}" drawable="xperia_security_shield" />
-	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity}" drawable="sim_card_white" />
 	<item component="ComponentInfo{com.android.stk/com.android.stk.StkMain}" drawable="sim_card_white" />
 	<item component="ComponentInfo{com.android.stk2/com.android.stk2.StkLauncherActivityII}" drawable="sim_card_white" />
 	<item component="ComponentInfo{com.android.stk/com.android.stk.StkLauncherActivity1}" drawable="sim_card_white" />
@@ -152,13 +898,11 @@
 	<item component="ComponentInfo{com.sonymobile.playnow/com.sonymobile.playnow.PlayNowActivity}" drawable="xperia_playnow" />
 	<item component="ComponentInfo{com.google.android.play.games/com.google.android.apps.play.games.features.main.MainActivity}" drawable="xperia_playnow" />
 	<item component="ComponentInfo{com.sonyericsson.album/com.sonyericsson.album.MainActivity}" drawable="xperia_album_sunset" />
-	<item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="xperia_album_sunset" />
 	<item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.GalleryActivity}" drawable="xperia_album_sunset" />
 	<item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="xperia_album_sunset" />
 	<item component="ComponentInfo{com.mobisystems.office/com.mobisystems.office.files.FileBrowserActivity}" drawable="xperia_briefcase" />
 	<item component="ComponentInfo{com.infraware.office.link/com.infraware.polarisoffice5.activity.MainActivity}" drawable="xperia_briefcase" />
 	<item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officehub.MainActivity}" drawable="xperia_briefcase" />
-	<item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="xperia_briefcase" />
 	<item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="xperia_reminders_bell" />
 	<item component="ComponentInfo{com.anydo/com.anydo.activity.SplashActivity}" drawable="xperia_reminders_bell" />
 	<item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="xperia_reminders_bell" />
@@ -166,7 +910,6 @@
 	<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.LaunchActivity}" drawable="xperia_contacts_dual" />
 	<item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="xperia_contacts_dual" />
 	<item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.app.contacts.activity.Main}" drawable="xperia_contacts_dual" />
-	<item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="xperia_contacts_dual" />
 	<item component="ComponentInfo{com.sonymobile.superstamina/com.sonymobile.superstamina.SuperStaminaActivity}" drawable="xperia_stamina_battery" />
 	<item component="ComponentInfo{com.android.settings/com.android.settings.Settings$PowerUsageSummaryActivity}" drawable="xperia_stamina_battery" />
 	<item component="ComponentInfo{com.samsung.android.lool/com.samsung.android.sm.ui.battery.BatteryActivity}" drawable="xperia_stamina_battery" />
@@ -177,13 +920,9 @@
 	<item component="ComponentInfo{com.sony.tvsideview.phone/com.sony.tvsideview.phone.LaunchActivity}" drawable="xperia_tv_xmb" />
 	<item component="ComponentInfo{com.sony.creatorsapp/com.sony.creatorsapp.MainActivity}" drawable="xperia_tv_xmb" />
 	<item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}" drawable="xperia_tv_xmb" />
-	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="xperia_globe_browser" />
-	<item component="ComponentInfo{com.sec.android.app.sbrowser/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="xperia_globe_browser" />
-	<item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="xperia_globe_browser" />
 	<item component="ComponentInfo{com.google.android.earth/com.google.android.earth.EarthActivity}" drawable="xperia_globe_browser" />
 	<item component="ComponentInfo{com.sonyericsson.music/com.sonyericsson.music.PlayerActivity}" drawable="xperia_headphones_audio" />
 	<item component="ComponentInfo{com.sony.songpal.mdr/com.sony.songpal.mdr.application.MdrMainActivity}" drawable="xperia_headphones_audio" />
-	<item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="xperia_headphones_audio" />
 	<item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="xperia_headphones_audio" />
 	<item component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.SettingListActivity}" drawable="xperia_message_settings" />
 	<item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.appsettings.ApplicationSettingsActivity}" drawable="xperia_message_settings" />
@@ -203,7 +942,6 @@
 	<item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.gui.MainActivity}" drawable="xperia_video_radar" />
 	<item component="ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityMediaList}" drawable="xperia_video_radar" />
 	<item component="ComponentInfo{com.sonyericsson.album/com.sonyericsson.album.MainActivity}" drawable="xperia_album_dandelion" />
-	<item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="xperia_album_dandelion" />
 	<item component="ComponentInfo{com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.MainActivity}" drawable="xperia_album_dandelion" />
 	<item component="ComponentInfo{com.sony.uec/com.sony.uec.activity.MainActivity}" drawable="xperia_remote_control" />
 	<item component="ComponentInfo{tv.peel.app/tv.peel.app.ShowcaseActivity}" drawable="xperia_remote_control" />
@@ -228,10 +966,6 @@
 	<item component="ComponentInfo{com.sonymobile.hostapp.swr30/com.sonymobile.hostapp.swr30.MainActivity}" drawable="xperia_smartband_talk" />
 	<item component="ComponentInfo{com.sonymobile.lifelog/com.sonymobile.lifelog.MainActivity}" drawable="xperia_smartband_talk" />
 	<item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="xperia_smartband_talk" />
-	<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.DeskClock}" drawable="xperia_alarm_clock_red" />
-	<item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="xperia_alarm_clock_red" />
-	<item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="xperia_alarm_clock_red" />
-	<item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="xperia_alarm_clock_red" />
 	<item component="ComponentInfo{com.sonymobile.tips/com.sonymobile.tips.MainActivity}" drawable="xperia_lightbulb_torch" />
 	<item component="ComponentInfo{com.devuni.flashlight/com.devuni.flashlight.MainActivity}" drawable="xperia_lightbulb_torch" />
 	<item component="ComponentInfo{net.cactii.flash2/net.cactii.flash2.MainActivity}" drawable="xperia_lightbulb_torch" />
@@ -247,22 +981,38 @@
 	<item component="ComponentInfo{com.sonymobile.hostapp.swr10/com.sonymobile.hostapp.swr10.MainActivity}" drawable="xperia_smartband_black" />
 	<item component="ComponentInfo{com.sonymobile.lifelog/com.sonymobile.lifelog.MainActivity}" drawable="xperia_smartband_black" />
 	<item component="ComponentInfo{com.fitbit.FitbitMobile/com.fitbit.FitbitMobile.SplashActivity}" drawable="xperia_smartband_black" />
-	<item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="xperia_browser_grid" />
 	<item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="xperia_browser_grid" />
 	<item component="ComponentInfo{com.opera.browser/com.opera.browser.OperaMainActivity}" drawable="xperia_browser_grid" />
 	<item component="ComponentInfo{com.brave.browser/com.brave.browser.BraveActivity}" drawable="xperia_browser_grid" />
 	<item component="ComponentInfo{com.sonyericsson.home/com.sonyericsson.home.HomeActivity}" drawable="xperia_home_launcher_white" />
-	<item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaLauncher}" drawable="xperia_home_launcher_white" />
 	<item component="ComponentInfo{ch.deletescape.lawnchair.plah/ch.deletescape.lawnchair.LawnchairLauncher}" drawable="xperia_home_launcher_white" />
-	<item component="ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher}" drawable="xperia_home_launcher_white" />
 	<item component="ComponentInfo{com.android.launcher3/com.android.launcher3.Launcher}" drawable="xperia_home_launcher_white" />
 	<item component="ComponentInfo{com.sony.playmemories.mobile/com.sony.playmemories.mobile.MainActivity}" drawable="xperia_lens_camera_qx" />
 	<item component="ComponentInfo{com.sony.imaging.edge.m/com.sony.imaging.edge.m.MainActivity}" drawable="xperia_lens_camera_qx" />
 	<item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="xperia_lens_camera_qx" />
 	<item component="ComponentInfo{com.sonymobile.themes/com.sonymobile.themes.ThemeActivity}" drawable="xperia_theme_earth" />
-	<item component="ComponentInfo{com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.CategoryPickerActivity}" drawable="xperia_theme_earth" />
 	<item component="ComponentInfo{com.google.android.earth/com.google.android.earth.EarthActivity}" drawable="xperia_theme_earth" />
 	<item component="ComponentInfo{com.sonymobile.smartconnect.smartwatch2/com.sonymobile.smartconnect.smartwatch2.MainActivity}" drawable="xperia_smartwatch_strap" />
 	<item component="ComponentInfo{com.sonyericsson.extras.liveware/com.sonyericsson.extras.liveware.ui.LaunchActivity}" drawable="xperia_smartwatch_strap" />
 	<item component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.SplashActivity}" drawable="xperia_smartwatch_strap" />
+
+	<!-- Dynamic calendar (real date) -->
+	<item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar_blue_grid" />
+	<calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="xkcal_" />
+	<item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar_blue_grid" />
+	<calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="xkcal_" />
+	<item component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.calendar.activity.MainActivity}" drawable="calendar_blue_grid" />
+	<calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.calendar.activity.MainActivity}" prefix="xkcal_" />
+	<item component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" drawable="calendar_blue_grid" />
+	<calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" prefix="xkcal_" />
+	<!-- Dynamic clock (real time) -->
+	<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.Organizer}" drawable="clock_dyn_silver" />
+	<item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock_dyn_silver" />
+	<item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock_dyn_silver" />
+	<item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="clock_dyn_silver" />
+	<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.alarm.Alarm}" drawable="clock_dyn_silver" />
+	<item component="ComponentInfo{com.sonyericsson.organizer/com.sonyericsson.organizer.DeskClock}" drawable="clock_dyn_silver" />
+	<dynamic-clock drawable="clock_dyn_silver" hourLayerIndex="1" minuteLayerIndex="2" secondLayerIndex="3" defaultHour="10" defaultMinute="10" defaultSecond="30" />
+	<dynamic-clock drawable="clock_dyn_dark" hourLayerIndex="1" minuteLayerIndex="2" secondLayerIndex="3" defaultHour="10" defaultMinute="10" defaultSecond="30" />
+	<dynamic-clock drawable="clock_dyn_white" hourLayerIndex="1" minuteLayerIndex="2" secondLayerIndex="3" defaultHour="10" defaultMinute="10" defaultSecond="30" />
 </resources>

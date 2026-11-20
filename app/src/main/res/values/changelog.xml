@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="changelog_date">Initial Release</string>
+	<string name="changelog_date">Version 1.3.3</string>
 	<string-array name="changelog">
-		<item>Initial release with 595 Sony Xperia and Android 4.4 KitKat icons</item>
+		<item>New: Sony Ericsson logo icon, now also used for this icon pack app itself</item>
+		<item>New: 20 glossy 3D icons (Gmail, Drive, Maps, Photos, Keep, Netflix, PlayStation, PSP, Walkman, Sony store, YouTube and more). Pick them in the Glossy - 3D styles section</item>
+		<item>New: live icons. Clock shows the real time and Calendar shows the current date (Lawnchair, Nova, Kvaesitso and similar launchers; others show a static icon). The calendar follows the date automatically; a calendar you pick by hand in a launcher is always a fixed image, so use Reset to default to get the live one back</item>
+		<item>New: dynamic clocks (silver, dark, white) can be picked by hand in Lawnchair and stay live</item>
+		<item>New: dark, silver and white clock dials plus blue calendar icons</item>
+		<item>Fix: Xperia clock now shows its ticking seconds hand on Android 11 and older too</item>
+		<item>New: glossy Amazon icon (navy and black styles)</item>
+		<item>New: "Xperia clock" widget (sharp high-resolution dial), a live brushed-metal analog clock with an orange seconds hand (resizable, tap to open alarms)</item>
+		<item>New: "Xperia action (dock)" shortcut, the same actions and icons as the widget, and it can be placed in the dock</item>
+		<item>New: "Xperia action" 1x1 home-screen widget with a customisable icon. Adds an app-drawer button to One UI and runs notifications, quick settings, recents, lock and more</item>
+		<item>New app icon and in-app header/avatar images: the classic Sony Ericsson logo</item>
+		<item>New: 3 glossy address-book contacts icons (pick them from the Glossy - Multiple styles section)</item>
+		<item>New: 206 glossy circular icons (95 classic-era app icons in several versions, plus 111 icons for modern apps)</item>
+		<item>Apps with several styles: the newest classic icon is the default; tap the icon in your launcher edit menu to choose another style</item>
+		<item>Classic KitKat and Xperia icons are still included as alternatives</item>
 		<item>Multiple alternatives for core apps (Phone, Camera, Walkman, WhatsApp, YouTube, Instagram, etc.)</item>
 		<item>Compatible with Nova Launcher, Lawnchair, Smart Launcher, Niagara, and others</item>
 	</string-array>

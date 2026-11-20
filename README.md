@@ -2,7 +2,7 @@
 
 [![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://android.com)
 [![SDK](https://img.shields.io/badge/Target%20SDK-36-blue.svg)](https://developer.android.com)
-[![Icons Count](https://img.shields.io/badge/Icons-595%2B-orange.svg)](#features)
+[![Icons Count](https://img.shields.io/badge/Icons-800%2B-orange.svg)](#features)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.md)
 
 A nostalgic icon pack bringing the classic design of **Sony Xperia Z-series** and **Android 4.4 KitKat** to modern Android smartphones. Built on the open-source **CandyBar Material Dashboard**, this icon pack seamlessly integrates with modern third-party launchers such as **Nova Launcher**, **Lawnchair**, **Niagara**, and **Smart Launcher**.
@@ -11,12 +11,13 @@ A nostalgic icon pack bringing the classic design of **Sony Xperia Z-series** an
 
 ## 🌟 Features
 
-- **595 High-Definition Icons**: Standardized to **192×192 px** (`xxxhdpi`) with 32-bit RGBA crisp transparency.
+- **800+ High-Definition Icons**: classic KitKat/Xperia icons (192×192 px) plus 209 glossy circular icons (512×512 px) with 32-bit RGBA transparency.
 - **Alternative Icon Variations ("Alts")**: Multiple icon styles and retro colorways for core apps:
   - **Walkman / Sony Music**: Blue, Red, Purple, Crystal, Orange, Violet, Silver, and classic Walkman 'W' styles.
   - **YouTube & Media**: 11 unique variations including classic retro TV, KitKat, and modern styles.
   - **WhatsApp & Social**: Classic, glassy, retro, and flat variants for WhatsApp, Instagram, Twitter, Telegram, and Reddit.
   - **System Apps**: Multiple variations for Camera, Phone, Browser, Settings, Calculator, Calendar, and Clock.
+- **Glossy circular icons**: 206 shiny orb-style icons — 95 classic-era app icons (many in several historic versions, e.g. WhatsApp, Viber, Netflix, Google Maps) and 111 icons for modern apps. When an app has more than one style, the newest classic one is applied by default; pick another in your launcher's icon-edit menu (section *Glossy - Multiple styles*).
 - **CandyBar Material Dashboard**:
   - One-tap launcher application.
   - Categorized icon catalog and real-time search.

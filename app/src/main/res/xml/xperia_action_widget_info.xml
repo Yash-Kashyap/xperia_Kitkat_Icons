@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="56dp"
+    android:minHeight="56dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/widget_action"
+    android:previewImage="@drawable/widget_flat_app_drawer"
+    android:configure="com.xperia.kitkat.icons.widget.ActionWidgetConfigActivity"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable" />

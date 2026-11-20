@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xclock_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:dial="@drawable/clock_dial"
+        android:hand_hour="@drawable/clock_hand_hour"
+        android:hand_minute="@drawable/clock_hand_minute" />
+    <ViewFlipper
+        android:id="@+id/xclock_flip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="1000"
+        android:autoStart="true">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_00" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_01" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_02" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_03" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_04" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_05" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_06" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_07" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_08" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_09" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_10" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_11" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_12" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_13" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_14" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_15" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_16" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_17" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_18" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_19" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_20" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_21" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_22" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_23" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_24" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_25" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_26" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_27" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_28" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_29" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_30" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_31" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_32" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_33" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_34" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_35" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_36" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_37" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_38" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_39" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_40" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_41" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_42" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_43" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_44" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_45" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_46" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_47" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_48" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_49" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_50" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_51" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_52" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_53" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_54" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_55" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_56" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_57" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_58" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/clock_sec_59" />
+    </ViewFlipper>
+</FrameLayout>

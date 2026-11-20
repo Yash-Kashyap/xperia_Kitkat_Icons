@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dynamic clock as an adaptive icon. Foreground layers: 0 dial, 1 hour, 2 minute, 3 second. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background>
+        <color android:color="#1C1C1E" />
+    </background>
+    <foreground>
+        <layer-list>
+            <item>
+                <inset android:drawable="@drawable/clockdyn_dark_dial" android:insetLeft="16.667%" android:insetTop="16.667%" android:insetRight="16.667%" android:insetBottom="16.667%" />
+            </item>
+            <item>
+                <rotate android:fromDegrees="300" android:toDegrees="5300" android:pivotX="50%" android:pivotY="50%">
+                    <inset android:drawable="@drawable/clockdyn_dark_hour" android:insetLeft="16.667%" android:insetTop="16.667%" android:insetRight="16.667%" android:insetBottom="16.667%" />
+                </rotate>
+            </item>
+            <item>
+                <rotate android:fromDegrees="60" android:toDegrees="60060" android:pivotX="50%" android:pivotY="50%">
+                    <inset android:drawable="@drawable/clockdyn_dark_minute" android:insetLeft="16.667%" android:insetTop="16.667%" android:insetRight="16.667%" android:insetBottom="16.667%" />
+                </rotate>
+            </item>
+            <item>
+                <rotate android:fromDegrees="180" android:toDegrees="6180" android:pivotX="50%" android:pivotY="50%">
+                    <inset android:drawable="@drawable/clockdyn_dark_second" android:insetLeft="16.667%" android:insetTop="16.667%" android:insetRight="16.667%" android:insetBottom="16.667%" />
+                </rotate>
+            </item>
+        </layer-list>
+    </foreground>
+</adaptive-icon>

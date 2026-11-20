@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_label">Xperia action</string>
+    <string name="widget_shortcut_label">Xperia action (dock)</string>
+    <string name="widget_description">One-tap shortcut: app drawer, notifications, quick settings and more. You can use any icon.</string>
+    <string name="widget_config_title">Xperia action</string>
+    <string name="widget_action_header">Action</string>
+    <string name="widget_icon_header">Icon</string>
+    <string name="widget_icon_flat">Default (white)</string>
+    <string name="widget_icon_orb">Glossy orb</string>
+    <string name="widget_icon_custom">My own image</string>
+    <string name="widget_choose_image">Choose image…</string>
+    <string name="widget_save">Save</string>
+    <string name="widget_pick_app">Choose an app</string>
+    <string name="widget_no_app">none yet – tap to choose</string>
+    <string name="widget_app_chosen">App: %1$s (tap to change)</string>
+    <string name="widget_accessibility_note">• These actions need the “Xperia action” accessibility service to be turned on once. It only performs the tap; it never reads your screen.</string>
+    <string name="widget_enable_accessibility">Turn on “Xperia action” in Accessibility settings</string>
+    <string name="widget_enable_title">One more step</string>
+    <string name="widget_enable_message">Turn on “Xperia action” under Installed apps in Accessibility settings so this widget can perform its action. It only performs the tap; it never reads your screen.</string>
+    <string name="widget_open_settings">Open settings</string>
+    <string name="widget_later">Later</string>
+    <string name="widget_action_failed">Could not run this action</string>
+    <string name="widget_service_name">Xperia action</string>
+    <string name="widget_service_description">Lets the Xperia action widget open the app drawer, notifications, quick settings, recent apps and lock the screen. It does not read or store anything on your screen.</string>
+    <string name="clock_widget_label">Xperia clock</string>
+    <string name="clock_widget_description">Brushed-metal analog clock with a live orange seconds hand.</string>
+</resources>
